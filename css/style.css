@@ -1,0 +1,75 @@
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #cccccc;
+}
+
+.container-fluid {
+  background-color: #000000;
+}
+
+/*navbar*/
+.navbar-default {
+  background-color: #000000;
+  border-color: #000000;
+  font-family: 'Kaushan Script', cursive;
+  color: #FFFFFF;
+}
+
+.row {
+  position: 0;
+  background-color: #0066FF;
+  color: #FFFFFF;
+  margin: 10px 0px 0px 0px;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  transition: all 1s ease;
+}
+.row#row1 {
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+}
+.row#row2 #row3,#row4,#row5,#row6 {
+  margin-top: 0px;
+}
+.row#row7 {
+  background-color: initial;
+  color: #FFFFFF;
+  margin-top: 0px;
+}
+.quoteText {
+  display: block;
+}
+.quoteInsert {
+  padding-bottom: 25px;
+  transition: all 2s ease;
+}
+.btn-default {
+  background-color: #00FFFF;
+  color: #FFFFFF;
+  border: none;
+}
+.btn-default:hover {
+  background-color: #FFFF00;
+  color: #000000;
+}
+/*icon size font*/
+.social-media-icons .fa {
+    background-color: #006633;
+    border-radius: 5px;
+  /*icon-color*/
+  color: #FFFFFF;
+  text-align: center;
+}
+
+#map-canvas {
+  position: relative;
+  width: 500px;
+  height: 400px;
+  background-color: #FFFF00;
+  text-align: center;
+}
+
